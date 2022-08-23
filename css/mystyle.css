@@ -1,0 +1,23 @@
+.icon-fab{
+    font-size: 300%;
+    color: green;
+    
+}
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+.ulSkil{
+  display: flex;
+}
+
