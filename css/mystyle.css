@@ -21,3 +21,6 @@
   display: flex;
 }
 
+.bg-dark-blue {
+    background-color: #00008b;
+}
