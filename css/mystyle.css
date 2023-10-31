@@ -13,8 +13,16 @@
     z-index: 1000;
 }
 
-.fa-whatsapp {
+.logo-wpp {
     margin-top: 16px;
+    width: 1em;
+    transition: 0.5s;
+    filter:drop-shadow(2px 2px 2px gray);
+}
+
+.logo-wpp:hover{
+    scale: 1.07;
+    transition: 0.5s;
 }
 
 .ulSkil{
@@ -23,4 +31,31 @@
 
 .bg-dark-blue {
     background-color: #00008b;
+}
+
+.img-main {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.2rem solid rgba(255, 255, 255, 0.2);
+
+}
+#page-top {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+@media (max-width: 990px){
+    .cel-img-center{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.1em;
+
+    }
+    .group-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
